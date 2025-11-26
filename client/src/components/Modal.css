@@ -1,0 +1,188 @@
+/* MODAL BACKDROP */
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.55); /* darker coding vibe */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* ensure it appears above everything */
+}
+
+/* MODAL BOX */
+.modalContainer {
+  width: 480px;
+  min-height: 220px;
+  border-radius: 14px;
+
+  background: #0f172a; /* dark navy */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  color: #e2e8f0; /* light gray text */
+  text-align: center;
+}
+
+/* TITLE */
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #60a5fa; /* neon blue accent */
+}
+
+/* CLOSE BUTTON (right side) */
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+.titleCloseBtn button:hover {
+  color: #60a5fa;
+}
+
+/* BODY */
+.modalContainer .body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.3rem;
+  color: #cbd5e1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* FOOTER (BUTTONS) */
+.modalContainer .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BUTTONS */
+.modalContainer .footer button {
+  width: 110px;
+  height: 38px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+
+  color: white;
+  background: #2563eb; /* medium blue */
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.modalContainer .footer button:hover {
+  background: #3b82f6; /* lighter blue */
+}
+
+/* CANCEL BUTTON */
+#cancelBtn {
+  background-color: #dc26b2; /* red */
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+#cancelBtn:hover {
+  background-color: #ef44cd;
+}
+
+/* ADDRESS INPUT */
+.address {
+  display: block;
+  margin: 15px auto;
+  height: 32px;
+
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  border-radius: 6px;
+
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+}
+
+/* INPUT FOCUS */
+input[type="text"]:focus {
+  background-color: #131b26 !important;
+  border-color: #ff6dc57c;
+  color: #f1f5f9;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(162, 162, 162);
+  font-family: "Inter", "Fira Code", monospace, sans-serif;
+}
+
+
+
+input[type="text"]{
+  color: rgb(162, 162, 162);
+}
+
+input[type="text"]{
+  caret-color: #eb25ba;
+}
+
+#selectNumber {
+  width: 60%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1.5px solid #d0d0d0;
+  background: #0f0d0d;
+  font-size: 1rem;
+  color: #d9c8c8;
+  transition: all 0.25s ease;
+  outline: none;
+  appearance: none; /* clean look */
+  cursor: pointer;
+}
+
+/* Hover: soft border + slight lift */
+
+
+
+#selectNumber option {
+  background: #fff;
+  color: #333;
+  padding: 10px;
+}
+#selectNumber option {
+  padding: 12px;
+  font-size: 0.95rem;
+  background: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 100px;
+}
+
+/* Hover on dropdown items (works in Chrome + Edge) */
+#selectNumber option:hover {
+  background: #f1f1ff !important;
+}
+
+/* Selected item */
+#selectNumber option:checked {
+  background: #e6e2ff;
+  font-weight: 300;
+}
+

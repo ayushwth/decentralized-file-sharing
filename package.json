@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.4"
+  },
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "motion": "^12.23.24"
+  },
+  "name": "dgdrive3.0",
+  "version": "1.0.0",
+  "description": "This project facilitates decentralized image upload and sharing on the blockchain using Solidity for the smart contract and React for the front-end interface. It enables users to securely upload images to IPFS (InterPlanetary File System) and share access with specified users through smart contract functionality.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshitijofficial/Dgdrive3.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kshitijofficial/Dgdrive3.0/issues"
+  },
+  "homepage": "https://github.com/kshitijofficial/Dgdrive3.0#readme"
+}

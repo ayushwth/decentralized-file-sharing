@@ -1,0 +1,72 @@
+.top {
+  margin: 40px;
+}
+
+/* HIDE DEFAULT FILE INPUT */
+input[type="file"] {
+  display: none;
+}
+
+/* CHOOSE FILE BUTTON */
+.choose {
+  background: #0b59d7; /* dark blue-gray */
+  color: #e2e8f0;
+  padding: 8px 16px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: 0.15s ease-in-out;
+  
+  box-shadow: 0 4px 12px rgba(30, 41, 59, 0.4);
+}
+
+.choose:hover {
+  background: #006aff;
+  border-color: #475569;
+  color: #f8fafc;
+}
+
+/* TEXT AREA LABEL */
+.textArea {
+  color: #d6dec4;
+  font-weight: 500;
+}
+
+/* UPLOAD BUTTON */
+.upload {
+  background: #dc9507; /* blue accent */
+  color: #000000;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter", "Fira Code", monospace, sans-serif;
+
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+
+  transition: 0.15s ease-in-out;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+}
+
+.upload:hover {
+  background: #3b82f6;
+  color: white;
+}
+
+/* DISABLED UPLOAD BUTTON */
+.upload:disabled,
+.upload[disabled] {
+  background: #475569;        /* dark grey-blue disabled */
+  color: #94a3b8;
+  cursor: not-allowed;
+
+  box-shadow: none;
+}
+
+/* SPACING WRAPPER */
+div {
+  padding: 5px 10px;
+}
