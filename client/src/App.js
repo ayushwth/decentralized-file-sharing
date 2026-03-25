@@ -2,6 +2,7 @@ import Upload from "./artifacts/contracts/Upload.sol/Upload.json";
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import FileUpload from "./components/FileUpload";
+import Display from "./components/Display";
 import Modal from "./components/Modal";
 import "./App.css";
 
@@ -79,6 +80,7 @@ function App() {
           provider={provider}
           contract={contract}
         ></FileUpload>
+        <Display contract={contract} account={account}></Display>
         {/* <Drag /> */}
         <Keyframes />
         {/* <HTMLContent  count={count}/> */}
