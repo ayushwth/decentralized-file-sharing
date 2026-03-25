@@ -6,7 +6,6 @@ import Display from "./components/Display";
 import Modal from "./components/Modal";
 import "./App.css";
 
-
 // import Drag from "./DragBall"
 import Keyframes from "./KeyFrames";
 // import HTMLContent from "./HTMLContent";
