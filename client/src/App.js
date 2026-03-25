@@ -52,10 +52,7 @@ function App() {
     };
     provider && loadProvider();
   }, []);
-  const updateCount = (newCount)=>{
-    setCount(newCount);
-    setTrigger(true)
-  }
+
 
 
   return (
