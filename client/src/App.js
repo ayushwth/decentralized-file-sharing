@@ -80,7 +80,6 @@ function App() {
           provider={provider}
           contract={contract}
         ></FileUpload>
-        <Display sendCountToParent={updateCount} contract={contract} account={account}></Display>
         {/* <Drag /> */}
         <Keyframes />
         {/* <HTMLContent  count={count}/> */}
