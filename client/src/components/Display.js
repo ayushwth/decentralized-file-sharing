@@ -26,7 +26,7 @@ const Display = ({sendCountToParent, contract, account }) => {
       sendCountToParent(str_array.length);
       const images = str_array.map((item, i) => {
         return (
-          <a href={item} key={i} target="_blank">
+          <a href={item} key={i} target="_blank" rel="noreferrer">
             <img
               key={i}
               src={`https://gateway.pinata.cloud/ipfs/${item.substring(6)}`}

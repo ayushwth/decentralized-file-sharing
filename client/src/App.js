@@ -52,8 +52,6 @@ function App() {
     };
     provider && loadProvider();
   }, []);
-  const [trigger,setTrigger]=useState(false)
-  const [count,setCount]=useState(0);
   const updateCount = (newCount)=>{
     setCount(newCount);
     setTrigger(true)
