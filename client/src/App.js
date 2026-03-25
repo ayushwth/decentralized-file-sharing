@@ -7,11 +7,11 @@ import Modal from "./components/Modal";
 import "./App.css";
 
 
-import Drag from "./DragBall"
+// import Drag from "./DragBall"
 import Keyframes from "./KeyFrames";
-import HTMLContent from "./HTMLContent";
-import HTMLContent2 from "./HTMLContent2";
-import ToggleSwitch from "./ToggleSwitch"
+// import HTMLContent from "./HTMLContent";
+// import HTMLContent2 from "./HTMLContent2";
+// import ToggleSwitch from "./ToggleSwitch"
 
 
 
@@ -87,11 +87,11 @@ function App() {
           contract={contract}
         ></FileUpload>
         <Display sendCountToParent={updateCount} contract={contract} account={account}></Display>
-        <Drag />
+        {/* <Drag /> */}
         <Keyframes />
-        <HTMLContent  count={count}/>
-        <HTMLContent2 trigger={trigger}/>
-        <ToggleSwitch />
+        {/* <HTMLContent  count={count}/> */}
+        {/* <HTMLContent2 trigger={trigger}/> */}
+        {/* <ToggleSwitch /> */}
       </div>
     </>
   );
