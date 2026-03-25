@@ -9,23 +9,21 @@ input[type="file"] {
 
 /* CHOOSE FILE BUTTON */
 .choose {
-  background: #0b59d7; /* dark blue-gray */
-  color: #e2e8f0;
-  padding: 8px 16px;
-  border: 1px solid #334155;
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05); /* sleek dark glass */
+  color: #fff;
+  padding: 12px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
   font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
-  margin-right: 6px;
-  transition: 0.15s ease-in-out;
-  
-  box-shadow: 0 4px 12px rgba(30, 41, 59, 0.4);
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
 .choose:hover {
-  background: #006aff;
-  border-color: #475569;
-  color: #f8fafc;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 107, 0, 0.5);
 }
 
 /* TEXT AREA LABEL */
@@ -36,34 +34,36 @@ input[type="file"] {
 
 /* UPLOAD BUTTON */
 .upload {
-  background: #dc9507; /* blue accent */
-  color: #000000;
-  padding: 8px 16px;
+  background: #ff6b00;
+  color: #000;
+  padding: 12px 28px;
   border: none;
-  border-radius: 8px;
+  border-radius: 30px;
   font-family: "Inter", "Fira Code", monospace, sans-serif;
 
   font-size: 15px;
+  font-weight: 700;
   cursor: pointer;
   margin-left: 10px;
 
-  transition: 0.15s ease-in-out;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(255, 107, 0, 0.4);
 }
 
 .upload:hover {
-  background: #3b82f6;
-  color: white;
+  background: #ff8533;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 107, 0, 0.6);
 }
 
 /* DISABLED UPLOAD BUTTON */
 .upload:disabled,
 .upload[disabled] {
-  background: #475569;        /* dark grey-blue disabled */
-  color: #94a3b8;
+  background: #222;
+  color: #555;
   cursor: not-allowed;
-
   box-shadow: none;
+  transform: none;
 }
 
 /* SPACING WRAPPER */

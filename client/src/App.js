@@ -67,7 +67,7 @@ function App() {
       )}
 
       <div className="App">
-        <h1 style={{ color: "white" }}>Decentralised File Sharing</h1>
+        <h1 style={{ color: "white" }}> Decentralized File Sharing</h1>
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
