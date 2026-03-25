@@ -26,6 +26,6 @@ const box = {
     top: 230,
     width: 100,
     height: 100,
-    backgroundColor: "#ff8800ff",
+    backgroundColor: "#00e4e4ff",
     borderRadius: 5,
 };
